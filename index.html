@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event Playground</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>🎯 JS Event Playground</h1>
+
+  <!-- CLICK -->
+  <section>
+    <h2>1. Click Event</h2>
+    <button id="likeBtn">Like Song</button>
+    <p id="likeMsg"></p>
+  </section>
+
+  <!-- DOUBLE CLICK -->
+  <section>
+    <h2>2. Double Click Event</h2>
+    <img id="albumCover" src="https://via.placeholder.com/100" alt="Album">
+    <p id="favMsg"></p>
+  </section>
+
+  <!-- MOUSEOVER -->
+  <section>
+    <h2>3. Mouseover/Mouseout</h2>
+    <button id="hoverBtn">Hover Over Me</button>
+  </section>
+
+  <!-- KEYDOWN -->
+  <section>
+    <h2>4. Keydown/Keyup</h2>
+    <input id="keyInput" placeholder="Type something..." />
+    <p id="keyMsg"></p>
+  </section>
+
+  <!-- INPUT -->
+  <section>
+    <h2>5. Input Event</h2>
+    <input id="searchBox" placeholder="Search artist..." />
+    <p id="searchMsg"></p>
+  </section>
+
+  <!-- CHANGE -->
+  <section>
+    <h2>6. Change Event</h2>
+    <select id="genreSelect">
+      <option value="">Select Genre</option>
+      <option value="Pop">Pop</option>
+      <option value="Hip-Hop">Hip-Hop</option>
+      <option value="R&B">R&B</option>
+    </select>
+    <p id="genreMsg"></p>
+  </section>
+
+  <!-- SUBMIT -->
+  <section>
+    <h2>7. Submit Event</h2>
+    <form id="voteForm">
+      <input id="artistName" placeholder="Enter artist name..." required />
+      <button type="submit">Vote</button>
+    </form>
+    <p id="voteMsg"></p>
+  </section>
+
+  <!-- SCROLL -->
+  <section style="height:200px; overflow:auto;" id="scrollBox">
+    <h2>8. Scroll Event (Scroll inside me)</h2>
+    <div style="height:400px;">
+      Scroll to see progress below 👇
+    </div>
+    <div class="progress" id="scrollProgress"></div>
+  </section>
+
+  <!-- LOAD -->
+  <section>
+    <h2>9. Load Event</h2>
+    <p>This runs when everything finishes loading (check console).</p>
+  </section>
+
+  <!-- DOMContentLoaded -->
+  <section>
+    <h2>10. DOMContentLoaded</h2>
+    <p>This runs when HTML structure is ready (check console).</p>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>

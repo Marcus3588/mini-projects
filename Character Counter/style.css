@@ -1,0 +1,60 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.container{
+	width: 520px;
+	height: 250px;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 8px;
+	background-color: #cea4a4;
+}
+
+.counter-wrapper{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	font-size: 0.9rem;
+}
+
+#warning-message{
+	color: red;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.hidden{
+	display: none;
+}
+
+.input-group{
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	margin-bottom: 10px;
+}
+
+textarea{
+	width: 96%;
+	min-height: 100px;
+	padding: 10px;
+	font-size: 1rem;
+	resize: vertical;
+	border:1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+label{
+	font-weight: 600;
+	color: #333;f
+}
+
+
+#charCount{
+	font-weight: bold;
+	padding: 5px;
+}

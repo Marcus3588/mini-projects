@@ -1,0 +1,51 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+	font-family: Arial, sans-serif;
+	perspective: 800px;
+}
+
+
+.container{
+	background-color: #fff;
+	padding:10px  20px;
+	border-radius: 10px;
+	height: 250px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+button{
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007BFF;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+button:hover{
+	background-color: #0056b3;
+}
+
+#dice{
+	font-size: 48px;
+	margin-top: 20px;
+	transform-style: preserve-3d;
+	transition: transform 0.3s ease;
+}
+
+@keyframes roll3D{
+	0% { transform: rotate(0deg); }
+	25% { transform: rotate(180deg); }
+	50% { transform: rotate(360deg); }
+	75% { transform: rotate(540deg); }
+	100% { transform: rotate(720deg); }
+}
+.rolling{
+	animation: roll3D 1.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}

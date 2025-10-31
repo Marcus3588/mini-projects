@@ -1,0 +1,32 @@
+body{
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #101820;
+	color: #fff;
+	padding-top: 50px;
+}
+
+.container{
+	margin: 20px auto;
+}
+#songInput{
+	padding: 10px;
+	width: 250px;
+}
+
+#downloadBtn{
+	padding: 10px 20px;
+	background-color: #ff4c68;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#downloadBtn:hover {
+	background-color: #e03e58;
+}
+
+#status {
+	margin-top: 30px;
+	font-size: 18px;
+}
