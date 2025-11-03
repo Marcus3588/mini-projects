@@ -17,3 +17,4 @@ An inspiring quote generator with a beautiful background image that displays ran
 - HTML5
 - CSS3
 - JavaScript
+  
