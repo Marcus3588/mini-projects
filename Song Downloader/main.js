@@ -1,11 +1,11 @@
 function downloadSong(song) {
 	return new Promise((resolve, reject) => {
-		if(!song) reject("Please enter a song name or URL!")
+		if(!song) reject("Please enter a song name ")
 			const statusDiv = document.getElementById("status");
-		    statusDiv.textContent = `Downloading "${song}"...please wait`;
+		    statusDiv.textContent = `Downloading "${song}"...please wait a while`;
 
 			setTimeout(() => {
-				resolve(`"${song}" downloaded! Added to your library`);
+				resolve(`"${song}" downloaded! Check your downloads folder.`);
 			}, 2000);
 	})
 }
