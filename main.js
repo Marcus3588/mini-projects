@@ -49,11 +49,11 @@ searchBox.addEventListener('input', (e) => {
 });
 
 // 6. Change
-const genreSelect = document.getElementById('genreSelect');
-const genreMsg = document.getElementById('genreMsg');
-genreSelect.addEventListener('change', (e) => {
-	genreMsg.textContent = `You selected: ${e.target.value}`;
-});
+const genSelect = document.getElementById('genreSelect');
+const genMsg = document.getElementById('genreMsg');
+genSelect.addEventListener('change', (e) => {
+	genMsg.textContent = `You've selected: ${e.target.value}`;
+})
 
 
 // 7. Submit
