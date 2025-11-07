@@ -189,11 +189,11 @@ const quotes = [
 	  },
 	  {
 	quote: `“Success is not just about making money. It's about making a difference.”`,
-	person: `Unknown`,
+	person: `Marcus Agadza`,
 	  },
 	  {
 	quote: `“Success is not for the chosen few, but for the few who choose it.”`,
-	person: `Unknown`,
+	person: `Marcus Agadza`,
 	  },
 	  {
 	quote: `“Success is not a destination, but a journey.”`,
@@ -209,7 +209,7 @@ const quotes = [
 	  },
 	  {
 	quote: `“Success is not about winning, but about learning and growing.”`,
-	person: `Unknown`,
+	person: `Marcus Agadza`,
 	  },
 	  {
 	quote: `“Success is not about luck, but about hard work and determination.”`,
